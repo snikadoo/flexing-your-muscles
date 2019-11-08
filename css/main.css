@@ -18,26 +18,31 @@ img {
 }
 
 .footer {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  padding: 1em 0;
+  padding: 1.5rem 0;
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
   color: #005e76;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .social > li {
   width: 3em;
+  margin: 0 .5em;
 }
 
 .copyright {
   width: 100%;
+  padding: 0 1rem;
 }
 
 .footer ul {
   padding-left: 0;
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .footer a {
@@ -46,4 +51,15 @@ img {
 
 .social {
   display: flex;
+  padding: 0 1rem;
+  margin-left: auto;
+}
+
+.footer h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.links {
+  padding: 0 1rem;
 }
